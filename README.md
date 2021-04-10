@@ -5,7 +5,7 @@
   - Différents niveaux d'administrations :white_check_mark:
   - Résalisations de sondages et d'évenements :white_check_mark:
   - Statitistiques pour chaque évenements/sondages :white_check_mark:
-  - Un interface épurée et simple -> 4 cases apparaissent aléatoirement puis augmente le score final de 15 points. :white_check_mark:
+  - Une interface épurée et simple -> 4 cases apparaissent aléatoirement puis augmente le score final de 15 points. :white_check_mark:
   
   
 # Aperçu
