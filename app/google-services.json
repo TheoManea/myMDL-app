@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "53824782980",
+    "firebase_url": "https://applycee-9ecd9.firebaseio.com",
+    "project_id": "applycee-9ecd9",
+    "storage_bucket": "applycee-9ecd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53824782980:android:f111cf6e89751444",
+        "android_client_info": {
+          "package_name": "com.mymdl.george.myymdll"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53824782980-4uhju3lgb7vu8cfmd6vc1sjhcl469v7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZsh3ngubSB7Twf3BgeH14-xYAmr02-Hg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53824782980-4uhju3lgb7vu8cfmd6vc1sjhcl469v7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

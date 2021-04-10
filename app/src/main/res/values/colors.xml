@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/orangefmdl</color>
+    <color name="colorPrimaryDark">#a33612 </color>
+    <color name="colorAccent">#a33612</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red500">#f44336</color>
+
+    <color name="orangefmdl">#E8501F</color>
+    <color name="greenfmdl">#BFC30E</color>
+    <color name="redfmdl">#B5144F</color>
+    <color name="yellowfmdl">#F8A913</color>
+    <color name="redfmdldark">#800d37</color>
+    <color name="flatblack">#303346</color>
+    <color name="flatgrey">#707070</color>
+
+    <!--Couleurs pour le pieChart-->
+    <color name="darkBlackGreenPie">#79855D</color>
+    <color name="whiteGreenPie">#B4C9A1</color>
+    <color name="lightGreenPie">#5BD66C</color>
+    <color name="softGreenPie">#71B77D</color>
+
+    <color name="lightWhiteGreenPie">#8DE9A8</color>
+    <color name="darkGreenPie">#1CA76B</color>
+    <color name="bluePie">#309298</color>
+    <color name="darkBluePie">#2D6E8F</color>
+
+    <color name="darkPurplePie">#675DF1</color>
+    <color name="purplePie">#7D6BC8</color>
+    <color name="lightBluePie">#8DB8E9</color>
+    <color name="lightPurplePie">#B577D4</color>
+
+    <color name="pinkPie">#E98DB2</color>
+    <color name="darkPinkPie">#C86BB9</color>
+    <color name="pinkRedPie">#B83F70</color>
+    <color name="darkRedPie">#952483</color>
+
+    <color name="redPie">#D25252</color>
+    <color name="darkOrangePie">#F88D5A</color>
+    <color name="lightOrangePie">#F1B55D</color>
+    <color name="yellowPie">#EFDD69</color>
+
+</resources>

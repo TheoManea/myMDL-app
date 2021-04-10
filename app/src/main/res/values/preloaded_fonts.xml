@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <!--item>@font/bitter</item>
+        <item>@font/bitter_bold</item>
+        <item>@font/galindo</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/raleway</item>
+        <item>@font/rubik_mono_one</item>
+        <item>@font/vampiro_one</item-->
+        <item>@font/alef_regular</item>
+        <item>@font/hey_august</item>
+        <item>@font/reemkufi_regular</item>
+    </array>
+</resources>

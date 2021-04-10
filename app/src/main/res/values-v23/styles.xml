@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="orangeSwitch" parent="Theme.AppCompat.Light">
+        <item name="android:thumbTint">@color/orangefmdl</item>
+        <item name="android:trackTint">@color/orangefmdl</item>
+        <item name="colorSwitchThumbNormal">@android:color/primary_text_light</item>
+    </style>
+</resources>

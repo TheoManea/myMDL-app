@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "588840698726",
+    "firebase_url": "https://mdlmarceau.firebaseio.com",
+    "project_id": "mdlmarceau",
+    "storage_bucket": "mdlmarceau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588840698726:android:f111cf6e89751444",
+        "android_client_info": {
+          "package_name": "com.example.george.betamdl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588840698726-lmts3n06oqqf3k8c723rgs4kgo1hunsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.george.betamdl",
+            "certificate_hash": "e757242fd93ee555ea912392651a1a94fdae7915"
+          }
+        },
+        {
+          "client_id": "588840698726-nmmvjfdgat7vq756uvaeaqg7tedhgu5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXb3JG6O2VJM6GcYE5aFEs2P4c6L4FaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588840698726-nmmvjfdgat7vq756uvaeaqg7tedhgu5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

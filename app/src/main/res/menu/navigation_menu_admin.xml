@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Actions">
+        <menu>
+            <group
+                android:id="@+id/Actions"
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/addEvent"
+                    android:title="Créer un article"
+                    android:icon="@drawable/ic_note_add_black_24dp"/>
+
+                <item android:id="@+id/editEvent"
+                    android:title="Modifier un article"
+                    android:icon="@drawable/ic_edit_black_24dp"/>
+
+
+                <item android:id="@+id/deleteEvent"
+                    android:icon="@drawable/ic_clear_black_24dp"
+                    android:title="Supprimer un article"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Mon compte">
+        <menu>
+            <group
+                android:id="@+id/compte"
+                android:checkableBehavior="single">
+
+                <item android:id="@+id/donnees"
+                    android:icon="@drawable/key"
+                    android:title="Mes données"/>
+            </group>
+        </menu>
+    </item>
+</menu>

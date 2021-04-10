@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mymdl.george.myymdll">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mymdlcoloredlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mymdlcoloredlogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Cgu_Activity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ManageSurvey"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ManageOrCreateSurvey"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ManageHighSchoolActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".SendMessage"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ReadOrCreateMessage"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".SurveyActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ChooseSchoolActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".userSettings"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AddClubActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AddUserActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ClubDetailActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".event_admin_list"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".testDbActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdminActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".EventDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddEventActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".MembersActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ManageClubActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".Info"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".HelloService"
+            android:exported="false"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".StatsActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

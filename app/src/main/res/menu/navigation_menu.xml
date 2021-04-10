@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:title="Les Clubs"
+        android:id="@+id/menuClubs">
+
+        <menu>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Mes paramètres">
+
+        <item android:id="@+id/param"
+            android:icon="@drawable/ic_settings_orange_24dp"
+            android:title="Réglages"/>
+
+        <item android:id="@+id/infos"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+
+            android:title="Infos"/>
+
+    </item>
+
+    <item android:title="Espace administrateur"
+        android:id="@+id/appFonctionnality">
+        <menu>
+            <group
+                android:id="@+id/connection"
+                android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/adminZone"
+
+                    android:icon="@drawable/ic_developer_board_black_24dp"
+                    android:title="Espace administration"
+                    android:visible="false" />
+
+
+                <item android:id="@+id/connexion"
+                    android:icon="@drawable/ic_vpn_key_orange_24dp"
+                    android:title="@string/connexion"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

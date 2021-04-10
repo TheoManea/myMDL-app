@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleEvtTv"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:text="Agenda de Janvier"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/detailEvtTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Par : MDL LYCEE MARCEAU" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="5dp">
+
+                <Button
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_rounded"
+                    android:text="Marquer comme lu"
+                    android:textColor="@android:color/white" />
+
+                <Button
+                    android:id="@+id/readEvtBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_rounded"
+                    android:text="Lire"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewEvtNow"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#f7fafc"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/infos" />
+
+            <TextView
+                android:id="@+id/dayEvtTv"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="50"
+                android:maxLines="1"
+                android:paddingRight="2dp"
+                android:text="Date"
+                app:fontFamily="@font/alef_regular"
+                app:layout_constraintEnd_toEndOf="@+id/evtSideBtn"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/evtSideBtn"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/delete_card_button"
+                android:gravity="right"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/dayEvtTv"
+                app:layout_constraintVertical_bias="0.291" />
+
+            <TextView
+                android:id="@+id/detailEvtTv"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="80"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Détails"
+                app:fontFamily="@font/alef_regular"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/evtSideBtn"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toBottomOf="@+id/titleEvtTv"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/titleEvtTv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="80"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Titre"
+                android:textStyle="bold"
+                app:fontFamily="@font/alef_regular"
+                app:layout_constraintEnd_toStartOf="@+id/dayEvtTv"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
