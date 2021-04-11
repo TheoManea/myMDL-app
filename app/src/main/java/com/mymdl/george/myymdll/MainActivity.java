@@ -73,9 +73,9 @@ public class MainActivity extends AppCompatActivity implements
     /*protected static String DB_URL = "jdbc:mysql://remotemysql.com:3306/UihGXD8jFZ?useSSL=false";
     protected static String USER = "UihGXD8jFZ";
     protected static String PASS = "HccAWW6Y6T";*/
-    protected static String DB_URL = "jdbc:mysql://bv91837-001.dbaas.ovh.net:35606/mymdldb?useSSL=false";
-    protected static String USER = "mymdladmin";
-    protected static String PASS = "Mf352nV4z94XNGPxXhf99Qi4kv";
+    protected static String DB_URL = "";
+    protected static String USER = "";
+    protected static String PASS = "";
     /*protected static String DB_URL = "jdbc:mysql://federatitaappli.mysql.db.ovh.com/federatitaappli?useSSL=false";
     protected static String USER = "federatitaappli";
     protected static String PASS = "Mf352nV4z94XNGPxXhf99Qi4kv";*/
