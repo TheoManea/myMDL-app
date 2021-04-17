@@ -1,11 +1,11 @@
-# myMDL app : Une application facile d'utilisation pour gérer une maison des lycéens et ses différents club.
+# myMDL app : Une application facile d'utilisation pour gérer une maison des lycéens et ses différents clubs.
 
-# Fonctionnalités 
+# Fonctionnalitées 
 
-  - Différents niveaux d'administrations :white_check_mark:
+  - Différents niveaux d'administration :white_check_mark:
   - Résalisations de sondages et d'évenements :white_check_mark:
   - Statitistiques pour chaque évenements/sondages :white_check_mark:
-  - Une interface épurée et simple -> 4 cases apparaissent aléatoirement puis augmente le score final de 15 points. :white_check_mark:
+  - Une interface épurée et simple  :white_check_mark:
   
   
 # Aperçu
